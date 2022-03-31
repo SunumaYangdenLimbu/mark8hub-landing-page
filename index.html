@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark8hub | Homepage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body onload="chair()">
+    <div class="topbar">
+        <div class="lang-selector">
+            <select>
+                <option>English</option>
+                <option>Nepali</option>
+                <option>Hindi</option>
+            </select>
+        </div>
+        <div class="topbar-inner">
+            <div class="topbar-inner1">
+                <p>Track your Order</p>
+            </div>
+            <div class="topbar-inner2-wishlist">
+                <i class="far fa-heart"></i>
+                <p>Wishlist</p>
+            </div>
+            <div class="topbar-inner2">
+                <i class="fas fa-shopping-basket"></i>
+                <p>Cart</p>
+            </div>
+            <div class="topbar-inner2">
+                <i class="fa-solid fa-user"></i>
+                <p>Account</p>
+            </div>
+        </div>
+    </div>
+    <div class="nav-wrapper">
+        <div class="nav-inner1">
+            <img class="img1" src="image/Logo-mark8hub.jpeg"/>
+            <p><i>Abaa sab online</i></p>
+        </div>
+        <div class="nav-inner2">
+            <div class="select">
+                <select>
+                    <option>Home decoration and essential </option>
+                    <option>Education</option>
+                    <option>Shopping center</option>
+                    <option>Hospital and Health Care</option>
+                    <option>Beauty and Care</option>
+                </select>
+            </div>  
+            <div class="search">
+                <input class="input" placeholder="Search Your Item"/>
+            </div>  
+            <div class="magnifying-glass">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="btn">Menu</button>
+            <div class="dropdown-inner">
+                <ul class="ul">
+                    <li class="language">Language
+                        <ul class="ul1">
+                            <li>English</li>
+                            <li>Nepali</li>
+                            <li>Hindi</li>
+                        </ul>
+                    </li>
+                    <li class="catagories">All Categories
+                        <ul class="ul2">
+                            <li>Shopping center</li>
+                            <li>Hotel</li>
+                            <li>Education</li>
+                            <li>Hospital and Health Care</li>
+                            <li>Beauty and Care</li>
+                            <li>Home decoration and Essential</li>
+                            <li>Fashion and wearing</li>
+                            <li>Consultancy</li>
+                        </ul>
+                    </li>
+                    <li>Login</li>
+                    <li>Register</li>
+                </ul>
+            </div>    
+        </div>
+        <div class="nav-inner3">
+            <a class="a1">Best Deals</a>
+            <a>Login</a>
+            <a>Register</a>
+        </div>
+    </div>
+    <div class="main-brands-wrapper">
+        <div class="main-brands-inner1" id="main-brands-inner">
+            <div id="para">
+
+            </div>
+        </div>
+        <div class="main-brands-inner2">
+            <button class="main-brands-inner2-inner1" onclick="chair()">
+                <i id="font-icon" class="fa-solid fa-chair"></i>
+                <p>Chair</p>
+            </button>
+            <button class="main-brands-inner2-inner1" onclick="lamp()">
+                <i id="font-icon" class="fa-solid fa-chair"></i>
+                <p>Lamp</p>
+            </button>
+            <button class="main-brands-inner2-inner1" onclick="bed()">
+                <i id="font-icon" class="fa-solid fa-chair"></i>
+                <p>Bed</p>
+            </button>
+            <button class="main-brands-inner2-inner1" onclick="sofa()">
+                <i id="font-icon" class="fa-solid fa-chair"></i>
+                <p>Sofa</p>
+            </button>
+        </div>
+    </div>
+    <div class="header">
+        <div class="category">
+            <ul>
+                <li style="box-shadow: 0 2px 2px 2px gainsboro;"><b>All Categories</b></li>
+                <li>Shopping Center</li>
+                <li>Hotel</li>
+                <li>Education</li>
+                <li>Hospital & Health Care </li>
+                <li>Beauty & Care</li>
+                <li>Home Decoation & Essential</li>
+                <li>Fashion & Wearing</li>
+                <li>Consultancy</li>
+            </ul>
+        </div>
+        <div class="carausel-part" id="carausel">
+            <div class="button-wrapper">
+                <button class="btn1" onclick="previous()">&#x2190;</button>
+                <button class="btn1" onclick="next()"> &#x2192;</button>
+            </div>
+        </div>
+        <div class="popular-category">
+            <div class="popular-cateogry-inner">
+                <div class="popular-category-inner1">
+                    <img class="t-shirt" src="https://media.istockphoto.com/photos/blank-black-tshirt-front-with-clipping-path-picture-id483960103?b=1&k=20&m=483960103&s=170667a&w=0&h=hNKNseCmaThTsh4i7Q3kHETlWo5Zi7Ogw-luVozfP_M="/>
+                    <p>T-shirt</p>
+                </div>
+                <div class="popular-category-inner1">
+                    <img class="t-shirt"
+                        src="https://media.istockphoto.com/photos/blank-black-tshirt-front-with-clipping-path-picture-id483960103?b=1&k=20&m=483960103&s=170667a&w=0&h=hNKNseCmaThTsh4i7Q3kHETlWo5Zi7Ogw-luVozfP_M=" />
+                    <p>T-shirt</p>
+                </div>
+            </div>
+
+            <div class="popular-cateogry-inner">
+                <div class="popular-category-inner1">
+                    <img class="t-shirt"
+                        src="https://media.istockphoto.com/photos/blank-black-tshirt-front-with-clipping-path-picture-id483960103?b=1&k=20&m=483960103&s=170667a&w=0&h=hNKNseCmaThTsh4i7Q3kHETlWo5Zi7Ogw-luVozfP_M=" />
+                    <p>T-shirt</p>
+                </div>
+                <div class="popular-category-inner1">
+                    <img class="t-shirt"
+                        src="https://media.istockphoto.com/photos/blank-black-tshirt-front-with-clipping-path-picture-id483960103?b=1&k=20&m=483960103&s=170667a&w=0&h=hNKNseCmaThTsh4i7Q3kHETlWo5Zi7Ogw-luVozfP_M=" />
+                    <p>T-shirt</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="feature-listing">
+        <div class="feature-listing-inner1">
+            <h3>Featured</h3>
+            <h2 style="margin-left: 5px;">Listing</h2>
+        </div>
+        <div class="feature-listing-inner2">
+            <div class="feature-listing-inner2-innerI">
+                <div class="hover-effect">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-share"></i>
+                </div>
+                <img class="chair" src="https://www.godrejinterio.com/imagestore/B2C/DINCHR016/DINCHR016_01_1500x1500.png"/>
+                <p><b>Aarti steel Company</b></p>
+                <p>Biratnagar, Nepal</p>
+                <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>    
+                <button class="feature-listing-button">Open Now</button>
+            </div>
+            <div class="feature-listing-inner2-innerI">
+                <div class="hover-effect">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-share"></i>
+                </div>
+                <img class="chair" src="https://www.godrejinterio.com/imagestore/B2C/DINCHR016/DINCHR016_01_1500x1500.png" />
+                <p><b>Aarti steel Company</b></p>
+                <p>Biratnagar, Nepal</p>
+                <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <button class="feature-listing-button">Open Now</button>
+            </div>
+            <div class="feature-listing-inner2-innerI">
+                <div class="hover-effect">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-share"></i>
+                </div>
+                <img class="chair" src="https://www.godrejinterio.com/imagestore/B2C/DINCHR016/DINCHR016_01_1500x1500.png" />
+                <p><b>Aarti steel Company</b></p>
+                <p>Biratnagar, Nepal</p>
+                <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <button class="feature-listing-button">Open Now</button>
+            </div>
+            <div class="feature-listing-inner2-innerI">
+                <div class="hover-effect">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-share"></i>
+                </div>
+                <img class="chair" src="https://www.godrejinterio.com/imagestore/B2C/DINCHR016/DINCHR016_01_1500x1500.png" />
+                <p><b>Aarti steel Company</b></p>
+                <p>Biratnagar, Nepal</p>
+                <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <button class="feature-listing-button">Open Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="trending-product">
+        <div class="trendng-product-inner1">
+            <h3>Featured</h3>
+            <h2 style="margin-left: 5px;">Products</h2>
+        </div>
+        <div class="trending-product-inner2">
+            <div class="trending-product-inner2-innerI">
+                <div class="hover-effect1">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <i class="fa-solid fa-share"></i>
+                </div>
+                <img class="chair"
+                    src="https://www.godrejinterio.com/imagestore/B2C/DINCHR016/DINCHR016_01_1500x1500.png" />
+                <p style="color: green;"><del style="color: black;">$145</del> $140</p>
+                <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <button class="trending-product-button">Add to cart</button>
+            </div>
+            <div class="trending-product-inner2-innerII">
+                <div class="hover-effect1">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <i class="fa-solid fa-share"></i>
+                </div>
+                <img class="chair"
+                    src="https://www.godrejinterio.com/imagestore/B2C/DINCHR016/DINCHR016_01_1500x1500.png" />
+                <p style="color: green;"><del style="color: black;">$145</del> $140</p>
+                <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <button class="trending-product-button">Add to cart</button>
+            </div>
+            <div class="trending-product-inner2-innerIII">
+                <div class="hover-effect1">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <i class="fa-solid fa-share"></i>
+                </div>
+                <img class="chair"
+                    src="https://www.godrejinterio.com/imagestore/B2C/DINCHR016/DINCHR016_01_1500x1500.png" />
+                <p style="color: green;"><del style="color: black;">$145</del> $140</p>
+                <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <button class="trending-product-button">Add to cart</button>
+            </div>
+            <div class="trending-product-inner2-innerIV">
+                <div class="hover-effect1">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <i class="fa-solid fa-share"></i>
+                </div>
+                <img class="chair"
+                    src="https://www.godrejinterio.com/imagestore/B2C/DINCHR016/DINCHR016_01_1500x1500.png" />
+                <p style="color: green;"><del style="color: black;">$145</del> $140</p>
+                <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <button class="trending-product-button">Add to cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="trending-service">
+        <div class="trendng-service-inner1">
+            <h3>Featured</h3>
+            <h2 style="margin-left: 5px;">Service</h2>
+        </div>
+        <div class="trending-service-inner2">
+            <div class="trending-product-inner2-innerI">
+                <div class="hover-effect1">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <i class="fa-solid fa-share"></i>
+                </div>
+                <img class="chair"
+                    src="https://www.godrejinterio.com/imagestore/B2C/DINCHR016/DINCHR016_01_1500x1500.png" />
+                <p style="color: green;"><del style="color: black;">$145</del> $140</p>
+                <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <button class="trending-service-button">Add to cart</button>
+            </div>
+            <div class="trending-product-inner2-innerI">
+                <div class="hover-effect1">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <i class="fa-solid fa-share"></i>
+                </div>
+                <img class="chair"
+                    src="https://www.godrejinterio.com/imagestore/B2C/DINCHR016/DINCHR016_01_1500x1500.png" />
+                <p style="color: green;"><del style="color: black;">$145</del> $140</p>
+                <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <button class="trending-product-button">Add to cart</button>
+            </div>
+            <div class="trending-product-inner2-innerI">
+                <div class="hover-effect1">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <i class="fa-solid fa-share"></i>
+                </div>
+                <img class="chair"
+                    src="https://www.godrejinterio.com/imagestore/B2C/DINCHR016/DINCHR016_01_1500x1500.png" />
+                <p style="color: green;"><del style="color: black;">$145</del> $140</p>
+                <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <button class="trending-product-button">Add to cart</button>
+            </div>
+            <div class="trending-product-inner2-innerI">
+                <div class="hover-effect1">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <i class="fa-solid fa-share"></i>
+                </div>
+                <img class="chair"
+                    src="https://www.godrejinterio.com/imagestore/B2C/DINCHR016/DINCHR016_01_1500x1500.png" />
+                <p style="color: green;"><del style="color: black;">$145</del> $140</p>
+                <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <button class="trending-product-button">Add to cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="trending-brand">
+        <div class="trending-brand-inner1">
+            <h3>Brands with Deals</h3>
+        </div>
+        <div class="trending-brand-inner2">
+            <div class="trending-brand-inner2-innerI">
+                <img class="brand-logo" src="https://brandongaille.com/wp-content/uploads/2014/04/Samsung-Company-Logo.jpg" />
+            </div>
+            <div class="trending-brand-inner2-innerI">
+                <img class="brand-logo" src="https://brandongaille.com/wp-content/uploads/2014/04/HP-Company-Logo.jpg" />
+            </div>
+            <div class="trending-brand-inner2-innerI">
+                <img class="brand-logo" src="https://brandongaille.com/wp-content/uploads/2014/04/Intel-Company-Logo.jpg" />
+            </div>
+            <div class="trending-brand-inner2-innerI">
+                <img class="brand-logo" src="https://brandongaille.com/wp-content/uploads/2014/04/Marriott-Company-Logo.jpg" />
+            </div>
+            <div class="trending-brand-inner2-innerI">
+                <img class="brand-logo" src="https://brandongaille.com/wp-content/uploads/2014/04/Motorola-Company-Logo.jpg" />
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-wrapper">
+        <div class="footer-inner1">
+            <h4>Traffic</h4>
+            <ul>
+                <li>2816 number of visitors since 2022</li>
+            </ul>
+        </div>
+        <div class="footer-inner2">
+            <h4>Quicks Links</h4>
+            <ul>
+                <li>About</li>
+                <li>Demo</li>
+                <li>Refund Policy</li>
+                <li>Terms and condition</li>
+                <li>Privacy Policy</li>
+                <li>Faq</li>
+            </ul>
+        </div>
+        <div class="footer-inner3">
+            <h4>Categories</h4>
+            <ul>
+                <li>Hotel</li>
+                <li>Shopping Center</li>
+                <li>Education</li>
+                <li>Hospital and Health Care</li>
+                <li>Beauty and Care</li>
+                <li>Home decoration and Essential</li>
+                <li><a href="#">View All</a></li>
+            </ul>
+        </div>
+        <div class="footer-inner4">
+            <h4>Contact</h4>
+            <ul>
+                <li>Whatsapp</li>
+                <li>Viber</li>
+                <li>Contact@gmail.com</li>
+                <li>Biratnagar, Nepal</li>
+                <li>9854622567</li>
+            </ul>
+        </div>
+        <div class="footer-inner5">
+            <h4>Follow Us</h4>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter-square"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-tiktok"></i>
+        </div>
+    </div>
+    <p style="padding-left: 20px; font-size: 14px;margin-top: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ex ea eligendi voluptatibus sint odit?</p>
+    <hr class="hr"/>
+
+    <div class="bottom">
+        <p style="color: rgb(143, 142, 142);margin-right: 100px; margin-left: 20px;">Copyright @ 2022.  All right reserved</p>
+        <p>Privacy Policy  |  Terms of use  |  Legal  |  Liscence</p>
+    </div>
+
+
+
+
+    <script>
+        let images = ["https://images.unsplash.com/photo-1605902711622-cfb43c4437b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80","https://previews.123rf.com/images/martm/martm1205/martm120500192/13869620-9-highly-detailed-electronic-devices-icons.jpg","https://image.shutterstock.com/image-illustration/collection-consumer-electronics-3d-render-260nw-740501749.jpg"];
+        let  carausel = document.getElementById('carausel');
+        carausel.style.backgroundImage = `url(${images[0]})`;
+
+        var idx = 0;
+        function previous(){
+            if (idx==0){
+                idx=images.length-1;
+            }
+            else{
+                idx--;
+            }
+            changeBgImage();
+        }
+        function next(){
+            if(idx<images.length-1){
+                idx++;
+            }
+            else{
+                idx=0;
+            }
+            changeBgImage();
+        }
+        function changeBgImage(){
+            carausel.style.backgroundImage = `url(${images[idx]})`;
+        }
+        
+         
+    //   Brand-Image ko javascript part  //
+
+
+
+        let mainBrand = document.getElementById("main-brands-inner");
+        let para = document.getElementById("para");
+        let main_para_wrapper = document.getElementById("main-brands-inner");
+
+        function chair(){
+            mainBrand.style.backgroundImage = "url(https://images.pexels.com/photos/8092364/pexels-photo-8092364.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)";
+            para.innerHTML = "Default Paragraphs allows other modules to modify the paragraph entities by subscribing for an event called DefaultParagraphsEvents::ADDED . It is triggered right before they are set as default values of the widget. It provides the possibility to set default values to the paragraph entity's fields if needed.Default Paragraphs allows other modules to modify the paragraph entities by subscribing for an event called DefaultParagraphsEvents::ADDED . It is triggered right before they are set as default values of the widget. It provides the possibility to set default values to the paragraph entity's fields if needed."
+        }
+        function lamp(){
+            mainBrand.style.backgroundImage = "url(https://media.istockphoto.com/photos/four-black-modern-pendant-electric-lamps-picture-id1343756267?s=612x612)";
+            para.innerHTML = "Default Paragraphs allows other modules to modify the paragraph entities by subscribing for an event called DefaultParagraphsEvents::ADDED . It is triggered right before they are set as default values of the widget. It provides the possibility to set default values to the paragraph entity's fields if needed.Default Paragraphs allows other modules to modify the paragraph entities by subscribing for an event called DefaultParagraphsEvents::ADDED . It is triggered right before they are set as default values of the widget. It provides the possibility to set default values to the paragraph entity's fields if needed.";
+            main_para_wrapper.style.transition = "all 2s";
+        }
+        function bed(){
+            mainBrand.style.backgroundImage = "url(https://media.istockphoto.com/photos/moving-house-picture-id1193385037?k=20&m=1193385037&s=612x612&w=0&h=HLUlu2rnjM9HErXx6nBpOB9Ox5bayBxg8HJSfvSjyTE=)";
+            para.innerHTML = "Default Paragraphs allows other modules to modify the paragraph entities by subscribing for an event called DefaultParagraphsEvents::ADDED . It is triggered right before they are set as default values of the widget. It provides the possibility to set default values to the paragraph entity's fields if needed.Default Paragraphs allows other modules to modify the paragraph entities by subscribing for an event called DefaultParagraphsEvents::ADDED . It is triggered right before they are set as default values of the widget. It provides the possibility to set default values to the paragraph entity's fields if needed."
+        }
+        function sofa(){
+            mainBrand.style.backgroundImage = "url(https://i.ytimg.com/vi/8lYdFQQVKaA/maxresdefault.jpg)";
+            para.innerHTML = "Default Paragraphs allows other modules to modify the paragraph entities by subscribing for an event called DefaultParagraphsEvents::ADDED . It is triggered right before they are set as default values of the widget. It provides the possibility to set default values to the paragraph entity's fields if needed.Default Paragraphs allows other modules to modify the paragraph entities by subscribing for an event called DefaultParagraphsEvents::ADDED . It is triggered right before they are set as default values of the widget. It provides the possibility to set default values to the paragraph entity's fields if needed."
+        }
+    </script>
+</body>
+</html>
